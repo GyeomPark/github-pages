@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'MBC1961GulimM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/MBC1961GulimM.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}    
+
+body {
+    background-color: #EFE7E3;
+}
+
+.frame {
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* navigater */
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+}
+
+ul {
+    margin: 0;
+}
+
+.site-name{
+    margin: 0;
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 24px;
+    color: #8d7b6f;
+}
+
+.nav-menu {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(187, 141, 102);
+    transition: 0.3s;
+}
+
+
+/* dashboard */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.korean-comment {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+.sample {
+    color: white;
+    transition: none;
+    -webkit-text-stroke: 1px black;
+}
+
+.sample:hover {
+    color: pink;
+    -webkit-text-stroke: 1px black;
+
+}
+
+.highlight {
+    color: white;
+    transition: none;
+    -webkit-text-stroke: 1px black;
+}
+
+.type1:hover {
+    color: yellowgreen;
+
+}
+
+.type2:hover {
+    color: skyblue;
+}
+
+.type3:hover {
+    color: violet;
+}
+
+.english-comment {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+
+    letter-spacing: -0.3px;
+}
+
+
+/* recent works */
+
+.recent-menu {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #C2B4AB;
+
+    text-align: right;
+    margin-top: 100px;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.contact {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #57463c;
+    border-bottom: 2px solid #C2B4AB;
+    margin-bottom: 30px;
+}
+
+.links>a {
+    color: black;
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.links>a:hover {
+    color: #57463c;
+    font-size: 40px;
+    font-weight: 400;
+    transition: 0.6s;
+}
+
+.footer>p {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 100px;
+}
+
+
+/* profile-section */
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin: 100px 100px;
+}
+
+#profile-picture {
+    width: 400px;
+    margin-right: 60px;
+}
+
+.introduction>h2 {
+    margin: 0;
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 35px;
+}
+
+.introduction>p {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+#capability {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+
+    line-height: 30px;
+}
+
+
+/* value-section */
+
+.value-menu {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 35px;
+    margin: 30px 100px;
+}
+
+.value-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 20px;
+}
+
+.value {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.value-icon {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 2px solid #C2B4AB;
+    border-radius: 100px;
+}
+
+.value-intro {
+    margin-left: 30px;
+}
+
+.value-name {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-weight: 100;
+    margin-top: 0px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.value-exp {
+    font-family: 'MBC1961GulimM', sans-serif;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* footer section */
+
+.footer-comment {
+    text-align: center;
+}
+
+a[title="partnership icons"]:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a[title="business and finance icons"]:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* recent works */
+
+.recent-works {
+    display: flex;
+    flex-direction: column;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 500px;
+    height: 300px;
+    transition: all 0.3s linear;
+}
+
+.thumbnail:hover {
+    transform: scale(1.4);
+}
+
+.article-info {
+    margin: 0 20px;
+}
+
+.article-name {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.article-name:hover {
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    transition: 0.3s;
+    color: pink;
+}
+
+.article-comment {
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.more {
+    width: content;
+    height: content;
+    float: right;
+    margin-right: 10px;
+
+    font-family: 'MBC1961GulimM', sans-serif;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 0px;
+}
+
+#name1 {
+    position: relative;
+    right: 70px;
+}
+
+
+#name2 {
+    text-align: right;
+    position: relative;
+    left: 80px;
+}
+
+#name2:hover {
+    color: skyblue;
+}
